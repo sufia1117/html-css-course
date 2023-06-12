@@ -4,152 +4,177 @@
         <title>Formatting and Style</title>
     </head>
     <body>
-        <!--Text Styles-->
-        <p>This is normal text</p>
-        <p>This is <b>bold</b> text</p>
-        <p>This is <i>italic</i> text</p>
-        <p>This is <u>underlined</u> text</p>
-        <p>This is <del>deleted</del> text</p>
-        <p>This is <big>big</big> text</p>
-        <p>This is <small>small</small> text</p>
-        <p>This is <sub>subscript</sub> text</p>
-        <p>This is <sup>superscript</sup> text</p>
-        <p>This is <tt>monospaced</tt> text</p>
-        <p>This is <mark style="background-color: aqua;">highlighted</mark> text</p>
-        <!--Highlighted text is automatically yellow unless specified by css-->
+        <!--Header for website-->
+        <header style="background-color: aquamarine;">
+            <h1>Welcome to My Website</h1>
+            <a href="">Home</a>
+            <a href="">About Us</a>
+            <a href="">Products</a>
+            <a href="">Contact Us</a>
+            <hr>
+        </header>
 
-        <!--GROUP TOGETHER-->
-        <!--<span> inline container to group elements for styling purposes-->
-        <!--<div> block container to group elements for styling purposes-->
-        <h1><span style="background-color: rgb(243, 99, 231);">This is a span title</span></h1>
-        <h1><div style="background-color: rgb(99, 161, 243);">This is a div title</div></h1>
+        <!--Main content of wbepage-->
+        <main>
+            <!--Text Styles-->
+            <h1>Text Styles</h1>
+            <p>This is normal text</p>
+            <p>This is <b>bold</b> text</p>
+            <p>This is <i>italic</i> text</p>
+            <p>This is <u>underlined</u> text</p>
+            <p>This is <del>deleted</del> text</p>
+            <p>This is <big>big</big> text</p>
+            <p>This is <small>small</small> text</p>
+            <p>This is <sub>subscript</sub> text</p>
+            <p>This is <sup>superscript</sup> text</p>
+            <p>This is <tt>monospaced</tt> text</p>
+            <p>This is <mark style="background-color: aqua;">highlighted</mark> text</p>
+            <!--Highlighted text is automatically yellow unless specified by css-->
 
-        <p><span style="background-color: rgb(243, 99, 231);">This is a span sentence</span></p>
-        <p><div style="background-color: rgb(99, 161, 243);">This is a div sentence</div></p>
+            <!--GROUP TOGETHER-->
+            <!--<span> inline container to group elements for styling purposes-->
+            <!--<div> block container to group elements for styling purposes-->
+            <h1><span style="background-color: rgb(243, 99, 231);">This is a span title</span></h1>
+            <h1><div style="background-color: rgb(99, 161, 243);">This is a div title</div></h1>
 
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <span style="background-color: rgb(243, 99, 231);">Mollitia adipisci impedit pariatur libero voluptatibus eaque!</span> Incidunt adipisci dolor vitae aspernatur,quo vel quae numquam maiores recusandae sequi voluptatibus architecto fugiat.</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <div style="background-color: rgb(99, 161, 243);">Mollitia adipisci impedit pariatur</div> libero voluptatibus eaque! Incidunt adipisci dolor vitae aspernatur, quo vel quae numquam maiores recusandae sequi voluptatibus architecto fugiat.</p>
-        <hr>
+            <p><span style="background-color: rgb(243, 99, 231);">This is a span sentence</span></p>
+            <p><div style="background-color: rgb(99, 161, 243);">This is a div sentence</div></p>
 
-        <!--Making lists-->
-        <h1>Lists</h1>
-        <!--Unordered List, not numerical-->
-        <h4>Unordered List</h4>
-        <ul>
-            <li>milk</li>
-            <li>eggs</li>
-            <li>bread</li>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <span style="background-color: rgb(243, 99, 231);">Mollitia adipisci impedit pariatur libero voluptatibus eaque!</span> Incidunt adipisci dolor vitae aspernatur,quo vel quae numquam maiores recusandae sequi voluptatibus architecto fugiat.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <div style="background-color: rgb(99, 161, 243);">Mollitia adipisci impedit pariatur</div> libero voluptatibus eaque! Incidunt adipisci dolor vitae aspernatur, quo vel quae numquam maiores recusandae sequi voluptatibus architecto fugiat.</p>
+            <hr>
+
+            <!--Making lists-->
+            <h1>Lists</h1>
+            <!--Unordered List, not numerical-->
+            <h4>Unordered List</h4>
             <ul>
-                <li>brioche</li>
-                <li>panettone</li>
+                <li>milk</li>
+                <li>eggs</li>
+                <li>bread</li>
+                <ul>
+                    <li>brioche</li>
+                    <li>panettone</li>
+                </ul>
             </ul>
-        </ul>
 
-        <!--Ordered List, numerically ordered-->
-        <h4>Ordered List</h4>
-        <ol>
-            <li>wake up</li>
-            <li>go to school</li>
-            <li>come home</li>
-            <li>go to sleep</li>
-        </ol>
+            <!--Ordered List, numerically ordered-->
+            <h4>Ordered List</h4>
+            <ol>
+                <li>wake up</li>
+                <li>go to school</li>
+                <li>come home</li>
+                <li>go to sleep</li>
+            </ol>
 
-        <!--Description lists-->
-        <h4>Description list</h4>
-        <dl style="background-color: blanchedalmond; border: 2px solid">
-            <dt><b>Cromer</b></dt>
-            <dd>Hourglass that allows transportation between dimensions</dd>
-            <dt><b>Halateez</b></dt>
-            <dd>The Strictland version of ATEEZ, aka "Black Pirates"</dd>
-            <dt><b>Strictland</b></dt>
-            <dd>An oppressive nation in the dimension of Halateez</dd>
-        </dl>
+            <!--Description lists-->
+            <h4>Description list</h4>
+            <dl style="background-color: blanchedalmond; border: 2px solid">
+                <dt><b>Cromer</b></dt>
+                <dd>Hourglass that allows transportation between dimensions</dd>
+                <dt><b>Halateez</b></dt>
+                <dd>The Strictland version of ATEEZ, aka "Black Pirates"</dd>
+                <dt><b>Strictland</b></dt>
+                <dd>An oppressive nation in the dimension of Halateez</dd>
+            </dl>
 
-        <!--Making Tables-->
-        <h1>Tables</h1>
-        <h3>Store Hours</h3>
+            <!--Making Tables-->
+            <h1>Tables</h1>
+            <h3>Store Hours</h3>
 
-        <table border="1" style="background-color: black;">
-            <tr align="center" style="background-color: lightblue;">
-                <th width="100">Sunday</th>
-                <th width="100">Monday</th>
-                <th width="100">Tuesday</th>
-                <th width="100">Wednesday</th>
-                <th width="100">Thursday</th>
-                <th width="100">Friday</th>
-                <th width="100">Saturday</th>
-            </tr>
-            <tr align="center" style="background-color: aliceblue;">
-                <td>Closed</td>
-                <td>9-5</td>
-                <td>9-5</td>
-                <td>9-5</td>
-                <td>9-5</td>
-                <td>9-5</td>
-                <td>10-2</td>
-            </tr>
-        </table>
+            <table border="1" style="background-color: black;">
+                <tr align="center" style="background-color: lightblue;">
+                    <th width="100">Sunday</th>
+                    <th width="100">Monday</th>
+                    <th width="100">Tuesday</th>
+                    <th width="100">Wednesday</th>
+                    <th width="100">Thursday</th>
+                    <th width="100">Friday</th>
+                    <th width="100">Saturday</th>
+                </tr>
+                <tr align="center" style="background-color: aliceblue;">
+                    <td>Closed</td>
+                    <td>9-5</td>
+                    <td>9-5</td>
+                    <td>9-5</td>
+                    <td>9-5</td>
+                    <td>9-5</td>
+                    <td>10-2</td>
+                </tr>
+            </table>
 
-        <br>
+            <br>
 
-        <!--Making Buttons-->
-        <h1>Buttons</h1>
-        <a href="https://www.marist.edu/" target="_blank">
-            <button style="font-size: 25px; background-color: grey; color: lightblue; border-radius: 25px; cursor: pointer">click me</button>
-        </a>
+            <!--Making Buttons-->
+            <h1>Buttons</h1>
+            <a href="https://www.marist.edu/" target="_blank">
+                <button style="font-size: 25px; background-color: grey; color: lightblue; border-radius: 25px; cursor: pointer">click me</button>
+            </a>
 
-        <br>
+            <br>
 
-        <!--Making fillable forms-->
-        <h1>Forms</h1>
+            <!--Making fillable forms-->
+            <h1>Forms</h1>
 
-        <form action="index.php" method="POST" enctype="multipart/form-data">
-            <label for="username">username:</label>
-            <input type="text" id="username" placeholder="enter username" minlength="3" maxlength="10" required><br>
+            <form action="index.php" method="POST" enctype="multipart/form-data">
+                <label for="username">username:</label>
+                <input type="text" id="username" placeholder="enter username" minlength="3" maxlength="10" required><br>
 
-            <label for="password">password:</label>
-            <input type="password" id="password" minlength="3" maxlength="10" required><br>
+                <label for="password">password:</label>
+                <input type="password" id="password" minlength="3" maxlength="10" required><br>
 
-            <label for="email">email:</label>
-            <input type="email" id="email" placeholder="name@email.com"><br>
+                <label for="email">email:</label>
+                <input type="email" id="email" placeholder="name@email.com"><br>
 
-            <label for="phone">phone number:</label>
-            <input type="tel" id="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br>
+                <label for="phone">phone number:</label>
+                <input type="tel" id="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br>
 
-            <label for="bday">birthdate:</label>
-            <input type="date" id="bday"><br>
+                <label for="bday">birthdate:</label>
+                <input type="date" id="bday"><br>
 
-            <label for="quantity">quantity:</label>
-            <input type="number" id="quantity" min="0" max="99" value="1"><br>
+                <label for="quantity">quantity:</label>
+                <input type="number" id="quantity" min="0" max="99" value="1"><br>
 
-            <label for="title">title:</label>
-            
-            <label for="Mr.">Mr.</label>
-            <input type="radio" id="Mr." value="Mr." name="title">
-            <label for="Ms.">Ms.</label>
-            <input type="radio" id="Ms." value="Ms." name="title">
-            <label for="PhD">PhD</label>
-            <input type="radio" id="PhD" value="PhD" name="title"><br>
+                <label for="title">title:</label>
+                
+                <label for="Mr.">Mr.</label>
+                <input type="radio" id="Mr." value="Mr." name="title">
+                <label for="Ms.">Ms.</label>
+                <input type="radio" id="Ms." value="Ms." name="title">
+                <label for="PhD">PhD</label>
+                <input type="radio" id="PhD" value="PhD" name="title"><br>
 
-            <label for="payment">payment:</label>
-            <select id="payment">
-                <option value="visa">Visa</option>
-                <option value="mastercard">Mastercard</option>
-                <option value="giftcard">Giftcard</option>
-            </select><br>
+                <label for="payment">payment:</label>
+                <select id="payment">
+                    <option value="visa">Visa</option>
+                    <option value="mastercard">Mastercard</option>
+                    <option value="giftcard">Giftcard</option>
+                </select><br>
 
-            <label for="subscribe">subscribe:</label>
-            <input type="checkbox" id="subscribe"><br>
+                <label for="subscribe">subscribe:</label>
+                <input type="checkbox" id="subscribe"><br>
 
-            <label for="comment">comment:</label>
-            <textarea id="comment" rows="3" cols="25"></textarea>
+                <label for="comment">comment:</label>
+                <textarea id="comment" rows="3" cols="25"></textarea>
 
-            <label for="file">file:</label>
-            <input type="file" id="file" accept="image/png, image/jpeg"><br>
+                <label for="file">file:</label>
+                <input type="file" id="file" accept="image/png, image/jpeg"><br>
 
-            <input type="reset">
-            <input type="submit">
-        </form>
+                <input type="reset">
+                <input type="submit">
+            </form>
+        </main>
+
+        <!--Footer for website-->
+        <footer style="background-color: aquamarine;">
+            <hr>
+            author: Fia<br>
+            &copy; copyright reserved<br>
+            <small><a href="mailto:Website@email.com">Website@email.com</a></small>
+        </footer>
+
+
+        
         
     </body>
 </html>
