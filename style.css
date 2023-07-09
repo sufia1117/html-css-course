@@ -29,3 +29,14 @@ h1{
     border-right: 3px dotted rgb(65, 160, 65);
     border-radius: 10px;
 }
+
+#shadow{
+    text-shadow: /*horizontal*/3px /*vertical*/5px /*blur*/5px rgb(126, 27, 255), -3px -3px 5px red;
+}
+
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(121, 214, 202);
+    box-shadow: 3px 3px 5px;
+}
