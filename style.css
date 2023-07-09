@@ -58,3 +58,13 @@ h1{
     background-color: rgb(66, 66, 177);
     margin-top: 50px;
 }
+
+#cat{
+    float: left; /*Can also do right to make image move to right side of page*/
+    margin-right: 10px;
+}
+
+#dance-cat{
+    float: right;
+    margin-left: 10px;
+}
