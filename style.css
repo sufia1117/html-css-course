@@ -88,3 +88,19 @@ h1{
     height: 100px;
     display: inline;
 }
+
+.container{
+    background-color: rgb(85, 84, 84);
+    
+}
+
+.box2{
+    border: 2px solid;
+    padding: 25px;
+    box-sizing: border-box;
+    height: auto;
+    width: 50%;
+    float: left;
+    text-align: center;
+    /*Max and min height also exist*/
+}
