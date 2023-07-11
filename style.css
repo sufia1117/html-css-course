@@ -89,11 +89,6 @@ h1{
     display: inline;
 }
 
-.container{
-    background-color: rgb(85, 84, 84);
-    
-}
-
 .box2{
     border: 2px solid;
     padding: 25px;
@@ -103,4 +98,12 @@ h1{
     float: left;
     text-align: center;
     /*Max and min height also exist*/
+}
+
+#box3{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    position: relative;
+    top: 20px;
 }
