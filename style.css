@@ -107,3 +107,11 @@ h1{
     position: relative;
     top: 20px;
 }
+
+body{
+    background-image: url(images/bg-image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
