@@ -74,3 +74,17 @@ h1{
     height: 100px;
     overflow: auto;
 }
+
+#divelement{
+    background-color: rgb(241, 115, 115);
+    width: 100px;
+    height: 100px;
+    display: inline;
+}
+
+#spanelement{
+    background-color: rgb(239, 253, 37);
+    width: 100px;
+    height: 100px;
+    display: inline;
+}
