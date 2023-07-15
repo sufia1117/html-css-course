@@ -122,7 +122,7 @@ body{
 #container2 p{
     background-color: yellow;
 }
-#container2 ~ p{
+#container2 + p{
     background-color: pink;
 }
 
@@ -141,10 +141,10 @@ a:visited{
     color: rgb(250, 31, 177);
 }
 
-li:hover{
+#list:hover{
     background-color: rgb(241, 255, 50);
 }
-li:not(:hover){
+#list:not(:hover){
     background-color: grey;
 }
 
@@ -155,4 +155,29 @@ li:not(:hover){
 }
 #greeting:hover p{
     display: block;
+}
+
+#pseudoelement::first-letter{
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+p::selection{
+    color: rgb(51, 243, 34);
+    background-color: blueviolet;
+}
+
+#apple::after{
+    content: "🍎";
+}
+#orange::after{
+    content: "🍊";
+}
+#banana::after{
+    content: "🍌";
+}
+#fruit li::marker{
+    content: "✔️";
+    color: rgb(51, 255, 51);
+    font-size: 1.2em;
 }
