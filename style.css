@@ -115,3 +115,13 @@ body{
     background-attachment: fixed;
     background-size: cover;
 }
+
+#container2{
+    border: 2px solid;
+}
+#container2 p{
+    background-color: yellow;
+}
+#container2 ~ p{
+    background-color: pink;
+}
