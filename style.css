@@ -308,3 +308,25 @@ p::selection{
 
     transform: translateX(50px) rotateZ(90deg);
 }
+
+#animated{
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    font-size: 13em;
+    text-align: center;
+    animation-name: rotate;
+    animation-duration: 1s;
+}
+
+@keyframes slideLeft{
+    from{transform: translateX(100%)}
+}
+
+@keyframes slideRight{
+    to{transform: translateX(100%)}
+}
+
+@keyframes rotate{
+    100%{transform: rotateX(360deg)}
+}
