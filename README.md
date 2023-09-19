@@ -1,2 +1,2 @@
 # html-css-course
- the code made/used to learn html and css using a tutorial
+ Reference websites made using html and css
